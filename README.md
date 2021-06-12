@@ -1,9 +1,11 @@
 # **Python Shell**
 
 The Python Shell, recreated using Python's `code` and `sys` modules.
-The `code` module is imported for its ```python
+The `code` module is imported for its
+```python
 InteractiveConsole()
-``` object that is used to create the shell,
+```
+object that is used to create the shell,
 and the `sys` module is imported for its `platform` variable that is used
 for showing the OS name showed in the real Python Shell. Just like
 in the real one, if the user is on Windows, then it has the value `win32`, on macOS, iOS,
