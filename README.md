@@ -7,8 +7,8 @@ InteractiveConsole()
 ```
 object that is used to create the shell,
 and the `sys` module is imported for its `platform` variable that is used
-for showing the OS name showed in the real Python Shell. Just like
-in the real one, if the user is on Windows, then it has the value `win32`, on macOS, iOS,
+for showing the OS name that shown in the real Python Shell, which varies for different
+operating systems. Just like in the real one, if the user is on Windows, then it has the value `win32`, on macOS, iOS,
 and iPadOS, it has the value `darwin` (which is *very* unusual), and, finally, on Unix
 and all Unix-like operating systems (Linux, Android, Chrome OS, etc.), it has the value
 `linux`.
